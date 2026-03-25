@@ -16,6 +16,8 @@ Este projeto tem como objetivo analisar dados públicos relacionados a armas de 
 
 O dashboard foi construído com foco em **visual limpo, interatividade e suporte à tomada de decisão**.
 
+[Acesso para o dashboard](https://app.powerbi.com/groups/me/reports/fe9e5352-b0d0-444c-a16d-cfe482a0c3c5/2262058a5a6cc9ee19b0?experience=power-bi)
+
 ---
 
 ## 🖼️ Preview do Dashboard
