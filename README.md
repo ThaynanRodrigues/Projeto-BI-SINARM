@@ -1,139 +1,151 @@
-# 📊 Dashboard Analítico — Registros, Portes e Ocorrências de Armas no Brasil
+# 📊 Analytical Dashboard — Firearm Registrations, Permits, and Incidents in Brazil
 
-> Projeto de Business Intelligence desenvolvido em Power BI para análise de registros, portes, ocorrências e requerimentos de armas no Brasil, com foco em indicadores estratégicos, análises temporais e geográficas.
-
----
-
-## 🧭 Visão Geral do Projeto
-
-Este projeto tem como objetivo analisar dados públicos relacionados a armas de fogo no Brasil, explorando:
-- Registros
-- Portes
-- Ocorrências
-- Requerimentos
-- Taxas de aprovação
-- Perfil por UF, sexo, tipo de arma e calibre
-
-O dashboard foi construído com foco em **visual limpo, interatividade e suporte à tomada de decisão**.
-
-[Acesse o Dashboard](https://app.powerbi.com/groups/me/reports/fe9e5352-b0d0-444c-a16d-cfe482a0c3c5/2262058a5a6cc9ee19b0?experience=power-bi)
+> Business Intelligence project developed in Power BI to analyze firearm registrations, permits, incidents, and applications in Brazil, focusing on strategic KPIs, temporal trends, and geographic insights.
 
 ---
 
-## 🖼️ Preview do Dashboard
+## 🧭 Project Overview
 
-### 🔹 Página 1 — Visão Geral
+This project aims to analyze public firearm-related data in Brazil, including:
 
-Indicadores principais do projeto, com mapa interativo por UF, totais, taxas e séries temporais.
+* Firearm Registrations
+* Carry Permits
+* Incidents
+* Applications
+* Approval Rates
+* Profiles by State, Gender, Firearm Type, and Caliber
 
----
+The dashboard was designed with a focus on **clean visualization, interactivity, and decision support**.
 
-### 🔹 Página 2 — Análises Detalhadas
-
-Análises por:
-- Sexo
-- Tipo de arma
-- Calibre
-- Categoria
-- Tipo de requerimento
+🔗 **[View Dashboard](https://app.powerbi.com/groups/me/reports/fe9e5352-b0d0-444c-a16d-cfe482a0c3c5/2262058a5a6cc9ee19b0?experience=power-bi)**
 
 ---
 
-### 🔹 Página 3 — Ocorrências
+## 🖼️ Dashboard Preview
 
-Evolução temporal e distribuição das ocorrências por tipo e canal.
+### 🔹 Page 1 — Executive Overview
 
----
-
-## 🎯 Objetivos do Projeto
-
-- Monitorar o volume de registros, portes, ocorrências e requerimentos  
-- Analisar a taxa de aprovação  
-- Identificar padrões regionais e demográficos  
-- Avaliar o comportamento temporal dos dados  
-- Transformar dados públicos em **informação visual estratégica**
+Key project indicators, including an interactive state map, totals, approval rates, and time-series analysis.
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+### 🔹 Page 2 — Detailed Analysis
 
-- Power BI Desktop  
-- DAX (Data Analysis Expressions)  
-- Excel / CSV  
-- Modelagem Dimensional  
-- Storytelling com Dados  
+Breakdowns by:
 
----
-
-## 🗂️ Fonte dos Dados
-
-Dados públicos em formato CSV, contendo informações sobre:
-- Registros
-- Portes
-- Ocorrências
-- Requerimentos
-- Sexo, UF, município, calibre, tipo de arma, decisão
-
-Os dados utilizados neste projeto foram obtidos a partir do portal oficial do governo:
-
-🔗 [Base de dados do SINARM – Sistema Nacional de Armas (dados.gov.br)](https://dados.gov.br/dados/conjuntos-dados/sinarm---sistema-nacional-de-armas)
-
+* Gender
+* Firearm Type
+* Caliber
+* Category
+* Application Type
 
 ---
 
-## 🔄 Processo ETL
+### 🔹 Page 3 — Incidents Analysis
 
-**Extração**
-- Importação dos arquivos CSV no Power BI
-
-**Transformação**
-- Tratamento de datas  
-- Padronização de campos  
-- Criação de colunas de apoio (Ano, Mês, UF)  
-- Limpeza de dados nulos  
-
-**Carga**
-- Criação da tabela calendário  
-- Relacionamentos entre tabelas  
-- Modelagem em esquema estrela  
+Temporal evolution and distribution of firearm-related incidents by type and reporting channel.
 
 ---
 
-## 📐 Principais Métricas (DAX)
+## 🎯 Project Objectives
 
-- Total de Registros  
-- Total de Portes  
-- Total de Ocorrências  
-- Total de Requerimentos  
-- Taxa de Aprovação  
-- Requerimentos Deferidos  
-- Requerimentos Indeferidos  
-- Percentual por Sexo  
-- Ranking de UFs  
-- Evolução Mensal  
+* Monitor the volume of registrations, permits, incidents, and applications
+* Analyze approval rates
+* Identify regional and demographic patterns
+* Evaluate temporal trends
+* Transform public data into **strategic visual insights**
 
 ---
 
-## 🎨 Design e Storytelling
+## 🛠️ Technologies & Tools
 
-- Tema escuro profissional  
-- Layout em blocos de KPI  
-- Cores para destaque de métricas  
-- Navegação por botões entre páginas  
-- Storytelling em fluxo:
-  - Visão Geral → Análises → Ocorrências  
-
----
-
-## 🚀 Resultado Final
-
-O projeto entrega uma **visão clara, organizada e interativa** sobre o cenário de armas no Brasil, permitindo análises estratégicas de forma rápida e visual.
+* Power BI Desktop
+* DAX (Data Analysis Expressions)
+* Excel / CSV
+* Dimensional Modeling
+* Data Storytelling
 
 ---
 
-## 👤 Autor
+## 🗂️ Data Source
 
-**Thaynan Rodrigues**  
-Cientista e Analista de Dados | Power BI | Python | SQL  
-[LinkedIn](https://www.linkedin.com/in/thaynanrodrigues/)
+Public datasets in CSV format containing information on:
 
+* Firearm Registrations
+* Carry Permits
+* Incidents
+* Applications
+* Gender, State, Municipality, Caliber, Firearm Type, and Decision Status
+
+The data used in this project was obtained from the Brazilian government's official open data portal:
+
+🔗 **SINARM (National Firearms System) Dataset — dados.gov.br**
+
+https://dados.gov.br/dados/conjuntos-dados/sinarm---sistema-nacional-de-armas
+
+---
+
+## 🔄 ETL Process
+
+### Extraction
+
+* Imported CSV files into Power BI
+
+### Transformation
+
+* Date standardization
+* Field normalization
+* Creation of supporting columns (Year, Month, State)
+* Missing data handling
+
+### Loading
+
+* Calendar table creation
+* Table relationships
+* Star schema data model
+
+---
+
+## 📐 Key DAX Metrics
+
+* Total Registrations
+* Total Carry Permits
+* Total Incidents
+* Total Applications
+* Approval Rate
+* Approved Applications
+* Rejected Applications
+* Gender Distribution (%)
+* State Ranking
+* Monthly Trend Analysis
+
+---
+
+## 🎨 Dashboard Design & Storytelling
+
+* Professional dark theme
+* KPI-focused layout
+* Color-coded metrics for emphasis
+* Navigation buttons between pages
+* Storytelling flow:
+
+  **Overview → Detailed Analysis → Incidents**
+
+---
+
+## 🚀 Final Outcome
+
+The project delivers a **clear, organized, and interactive view** of the firearm landscape in Brazil, enabling fast and effective strategic analysis through data visualization.
+
+---
+
+## 👤 Author
+
+**Thaynan Rodrigues**
+**Data Analyst | Data Scientist | Power BI | Python | SQL**
+
+---
+
+## 🌐 Contact
+
+🔗 **LinkedIn:** https://www.linkedin.com/in/thaynanrodrigues/
