@@ -141,6 +141,7 @@ The project delivers a **clear, organized, and interactive view** of the firearm
 
 ## 👤 Author
 
+
 **Thaynan Rodrigues**
 **Data Analyst | Data Scientist | Power BI | Python | SQL**
 
